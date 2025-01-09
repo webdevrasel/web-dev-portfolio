@@ -1,0 +1,125 @@
+/* Importing Google Font "Open Sans" with various weights */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Universal Reset: Removes default margin and padding from all elements */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Button styling */
+.btn {
+    color: rgb(255, 255, 255); /* White text color */
+    font-family: Open Sans; /* Using the imported "Open Sans" font */
+    font-size: 20px; /* Font size for button text */
+    font-weight: 700; /* Bold font weight */
+    line-height: 27px; /* Line height */
+    letter-spacing: 0%; /* No extra spacing between letters */
+    border-radius: 5px; /* Rounded corners */
+    background: rgb(253, 110, 10); /* Orange background color */
+    padding: 10px 25px; /* Padding inside the button */
+    border: none; /* No border */
+}
+
+/* Banner section background styling */
+.banner-section {
+    background-color: rgb(255, 248, 243); /* Light peach background color */
+    background-image: url(../images/developer.png), url(../images/header_bg.png); /* Adding two background images */
+    background-repeat: no-repeat; /* Prevents repeating the background images */
+    background-position: top left, right bottom; /* Positions the images */
+}
+
+/* Header section containing navigation */
+.head-section {
+    max-width: 1150px; /* Maximum width for header */
+    margin: auto; /* Centers the header */
+    padding: 10px 0px; /* Vertical padding for spacing */
+}
+
+/* Navigation styling */
+nav {
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Align items vertically center */
+    justify-content: space-between; /* Space between navigation items */
+}
+
+/* Navigation title styling */
+.nav-title {
+    font-family: Open Sans;
+    font-size: 45px; /* Large font size for title */
+    font-weight: 800; /* Extra bold font weight */
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* Navigation list styling */
+nav ul {
+    display: flex; /* Flexbox for horizontal list */
+    gap: 30px; /* Space between list items */
+    align-items: center; /* Align items vertically center */
+}
+
+/* Navigation list items */
+nav ul li {
+    list-style: none; /* Removes default bullet points */
+}
+
+/* Navigation links */
+nav li a {
+    text-decoration: none; /* Removes underline from links */
+    color: rgb(71, 71, 71); /* Dark gray color */
+    font-family: Open Sans;
+    font-size: 20px; /* Medium font size */
+    font-weight: 400; /* Normal font weight */
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* Banner container styling */
+.banner {
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Align items vertically center */
+}
+
+/* Banner greetings text styling */
+.banner-greetings {
+    color: rgb(71, 71, 71); /* Dark gray color */
+    font-family: Open Sans;
+    font-size: 45px; /* Large font size for greetings */
+    font-weight: 600; /* Semi-bold font weight */
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* Banner title styling */
+.banner-title {
+    color: rgb(24, 24, 24); /* Almost black color */
+    font-family: Open Sans;
+    font-size: 85px; /* Very large font size for title */
+    font-weight: 700; /* Bold font weight */
+    line-height: 116px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* Banner description text styling */
+.banner-description {
+    color: rgb(117, 117, 117); /* Light gray color */
+    font-family: Open Sans;
+    font-size: 18px; /* Small font size for description */
+    font-weight: 400; /* Normal font weight */
+    line-height: 30px; /* Increased line height for better readability */
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px; /* Space below the description */
+}
+
+/* Banner profile picture styling */
+.banner-profile-picture {
+    width: 584px; /* Width of the profile picture */
+    height: 676px; /* Height of the profile picture */
+    margin-bottom: -10px; /* Negative margin to adjust alignment */
+}
