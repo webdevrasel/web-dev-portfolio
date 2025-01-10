@@ -7,6 +7,15 @@
     padding: 0px;
 }
 
+.p-content{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
 /* Button styling */
 .btn {
     color: rgb(255, 255, 255); /* White text color */
@@ -122,4 +131,49 @@ nav li a {
     width: 584px; /* Width of the profile picture */
     height: 676px; /* Height of the profile picture */
     margin-bottom: -10px; /* Negative margin to adjust alignment */
+}
+
+
+/* About Section will be added here*/
+.about-section{
+    max-width: 1140px;
+    margin: auto;
+
+}
+.about-container{
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+    padding: 100px;
+    margin: 80px 0px;
+}
+
+.about-title{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.p-content, about {
+    text-align: center;
+}
+
+/* About Content area added here */
+.about-content-area-info{
+    margin-top: 30px;
+}
+.info-area-content{
+    display: flex;
+    justify-content: space-between;
+}
+.title-info{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
 }
